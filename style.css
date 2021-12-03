@@ -1,0 +1,31 @@
+:root {
+    /* Primary Colors */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* Neutral */
+
+    --transparent-white : hsla(0, 0%, 100%, 0.75); /*  (paragraphs): */
+    --very-light-gray: hsl(0, 0%, 95%);  /*(background, headings, buttons) */
+
+     --font-big: 'Big Shoulders Display', cursive;
+     --font-lexend: 'Lexend Deca', sans-serif;
+}
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: var(--very-light-gray);
+    color:black;
+    font-family: var(--font-lexend);
+    font-size: 2rem;
+    text-align: center;
+}
