@@ -83,6 +83,11 @@ body {
   padding-top: 1.5rem;
 }
 
+/* --------------------------------- HEADER ---------------------------------- */
+header {
+  background-color: var(--bright-orange);
+}
+
 .card .card-content .card-pattern .header-button p {
   display: flex;
   text-align: center;
@@ -95,6 +100,17 @@ body {
 .card .card-content .card-pattern .header-button span {
   align-self: center;
   margin: auto;
+}
+.card .card-content .card-pattern .header-button p:hover {
+  color: var(--very-light-gray);
+  border: 2px solid white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* ------------------------------ BODY ---------------------------------- */
+main {
+  background-color: var(--dark-cyan);
 }
 .card .card-content .card-pattern .main-button p {
   display: flex;
@@ -109,6 +125,16 @@ body {
   align-self: center;
   margin: auto;
 }
+.card .card-content .card-pattern .main-button p:hover {
+  color: var(--very-light-gray);
+  border: 2px solid white;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* ----------------------------- FOOTER ----------------------------- */
+footer {
+  background-color: var(--very-dark-cyan);
+}
 .card .card-content .card-pattern .footer-button p {
   display: flex;
   text-align: center;
@@ -122,35 +148,10 @@ body {
   align-self: center;
   margin: auto;
 }
-.card .card-content .card-pattern .header-button p:hover {
-  color: var(--very-light-gray);
-  border: 2px solid white;
-  background-color: transparent;
-  cursor: pointer;
-}
-.card .card-content .card-pattern .main-button p:hover {
-  color: var(--very-light-gray);
-  border: 2px solid white;
-  background-color: transparent;
-  cursor: pointer;
-}
+
 .card .card-content .card-pattern .footer-button p:hover {
   color: var(--very-light-gray);
   border: 2px solid white;
   background-color: transparent;
   cursor: pointer;
-}
-
-/* -- HEADER -- */
-header {
-  background-color: var(--bright-orange);
-}
-
-/* -- BODY -- */
-main {
-  background-color: var(--dark-cyan);
-  /* -- FOOTER -- */
-}
-footer {
-  background-color: var(--very-dark-cyan);
 }
