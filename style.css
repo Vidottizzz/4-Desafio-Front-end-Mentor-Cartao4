@@ -29,3 +29,104 @@ body {
     font-size: 2rem;
     text-align: center;
 }
+
+.card {
+    width: 20.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.card-content {
+    width: 100%; 
+     
+}
+.card-pattern:nth-child(1) {
+    height: 27.5rem;
+    text-align: left;
+    padding: 3.1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card-pattern {
+    height: 27.5rem;
+    text-align: left;
+    padding: 3.1rem;
+}
+.card-pattern:nth-child(3) {
+    height: 27.5rem;
+    text-align: left;
+    padding: 3.1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.card .card-content .card-pattern h1 {
+    color: var(--very-light-gray);
+    font-size : 2.6rem;
+    font-family: var(--font-big);
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+}
+.card .card-content .card-pattern p {
+    color: var(--very-light-gray);
+    font-size : 0.9rem;
+    line-height: 1.6rem;
+    font-family: var(--font-lexend);
+}
+.card .card-content .card-pattern img {
+padding-bottom: 1rem;
+}
+.card .card-content .card-pattern .header-button, .card .card-content .card-pattern .main-button, .card .card-content .card-pattern .footer-button {
+    padding-top: 1.5rem;
+}
+
+.card .card-content .card-pattern .header-button p {
+
+    text-align: center;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 2rem;
+    padding:0.75rem;
+    background-color: var(--very-light-gray);
+    color: var(--bright-orange);
+}
+.card .card-content .card-pattern .main-button p {
+
+    text-align: center;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 2rem;
+    padding:0.75rem;
+    background-color: var(--very-light-gray);
+    color: var(--dark-cyan);
+}
+.card .card-content .card-pattern .footer-button p {
+
+    text-align: center;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 2rem;
+    padding:0.75rem;
+    background-color: var(--very-light-gray);
+    color: var(--very-dark-cyan);
+}
+
+
+/* -- HEADER -- */
+header {
+    background-color: var(--bright-orange);
+}
+
+ /* -- BODY -- */
+main {
+background-color: var(--dark-cyan);
+    /* -- FOOTER -- */
+}
+footer {
+background-color: var(--very-dark-cyan);
+}
+
+
